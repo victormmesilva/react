@@ -26,7 +26,8 @@ export default class App extends Component{
   }
   
   loadColaboradores = async () => {
-    return fetch(`http://private-ba46ed-softtrainee.apiary-mock.com/colaboradores`)
+    //return fetch(`http://private-ba46ed-softtrainee.apiary-mock.com/colaboradores`)
+    return fetch(`http://localhost:3001/api/colaboradores/`)
     .then( response => {
       return response.json().then( colaboradores => {
          this.setState({lstColaboradores: colaboradores});

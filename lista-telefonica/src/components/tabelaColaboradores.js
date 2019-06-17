@@ -21,7 +21,7 @@ export default class TabelaColaboradores extends Component{
                                         <td>
                                             <h2 className="mt-0 mb-1">{colaborador.nome}</h2>
                                             <h3>{colaborador.email}</h3>
-                                            <h4>{colaborador.celular}</h4>
+                                            <h4>{colaborador.telefone}</h4>
                                         </td>
                                     </tr>
                                 );

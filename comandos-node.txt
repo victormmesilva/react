@@ -1,4 +1,5 @@
-npm init -y
+npm init -y ===> cria o package.json
+
 npm install express ===> Dependency
 
 npm install -D nodemon ===> DevDependency para não precisar reiniciar o server sempre
@@ -6,8 +7,19 @@ npm install -D nodemon ===> DevDependency para não precisar reiniciar o server s
 npm run dev
 
 
-robomongo.org (Robo3T)
 
+
+npm install mongoose ==> ORM de bd não relacional
+
+npm install require-dir ==> faz require de todas as models do dir
+
+
+
+npm install mongoose-paginate
+npm install cors
+
+
+robomongo.org (Robo3T)
 
 docker pull mongo
 docker run --name mongodb -p 27017:27017 -d mongo
@@ -15,11 +27,4 @@ docker ps -a => all
 docker ps
 docker start 'nomeImagem'
 
-npm install mongoose ==> ORM de bd não relacional
-
-npm install require-dir ==> faz require de todas as models do dir
-
 insomnia => app p requisicoes http
-
-npm install mongoose-paginate
-npm install cors
