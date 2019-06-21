@@ -29,7 +29,7 @@ module.exports = {
     },
 
     async destroy(req, res) {
-        const colaborador = await Colaborador.findById(req.params.id);
+        const colaborador = await Colaborador.findByIdAndDelete(req.params.id);
 
         return res.json(colaborador);
     }    

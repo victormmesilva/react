@@ -6,15 +6,8 @@ npm install -D nodemon ===> DevDependency para não precisar reiniciar o server s
 
 npm run dev
 
-
-
-
 npm install mongoose ==> ORM de bd não relacional
-
 npm install require-dir ==> faz require de todas as models do dir
-
-
-
 npm install mongoose-paginate
 npm install cors
 
